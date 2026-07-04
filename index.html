@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Başka İnşaat - Menemen İzmir'de kaliteli ve estetik konut, ticari inşaat ve mimari tasarım çözümleri. Anahtar teslim projeler.">
+    <title>Başka İnşaat | Estetik ve Mukavemet — Menemen / İzmir</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Favicon -->
+    <link rel="icon" href="assets/logo-mark.svg" type="image/svg+xml">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header / Navigation -->
+    <header class="main-header" id="header">
+        <div class="container header-container">
+            <!-- Logo: Inline SVG Mark + Text -->
+            <a href="#" class="logo" id="logo">
+                <svg class="logo-mark" viewBox="0 0 90 78" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <polygon points="1,8 12,8 12,68 1,68"/>
+                    <polygon points="19,25 30,25 30,68 19,68"/>
+                    <polygon points="34,8 34,25 78,45 78,28"/>
+                    <polygon points="34,44 34,61 78,68 78,51"/>
+                </svg>
+                <div class="logo-text">
+                    <span class="logo-name">BAŞKA</span>
+                    <span class="logo-tagline">— İNŞAAT —</span>
+                </div>
+            </a>
+
+            <nav class="nav-menu" id="nav-menu">
+                <ul>
+                    <li><a href="#hakkimizda" class="nav-link">Hakkımızda</a></li>
+                    <li><a href="#hizmetler" class="nav-link">Hizmetlerimiz</a></li>
+                    <li><a href="#projeler" class="nav-link">Projelerimiz</a></li>
+                    <li><a href="#iletisim" class="nav-link nav-link-cta">İletişim</a></li>
+                </ul>
+            </nav>
+            <button class="mobile-menu-toggle" id="mobile-toggle" aria-label="Menüyü Aç/Kapat">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Parallax Hero Section -->
+    <section class="hero-section" id="home">
+        <div class="hero-parallax-bg" id="hero-bg"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content container">
+            <p class="hero-subtitle fade-in-up">MİMARLIK & İNŞAAT</p>
+            <h1 class="hero-title fade-in-up delay-1">Yarının Yapıları,<br>Bugünün Estetiği</h1>
+            <p class="hero-description fade-in-up delay-2">Doğal malzemelerin sıcaklığını modern mimari çizgilerle harmanlayarak, zamansız ve sürdürülebilir yaşam alanları inşa ediyoruz.</p>
+            <div class="hero-buttons fade-in-up delay-3">
+                <a href="#projeler" class="btn btn-primary">Projeleri Keşfet</a>
+                <a href="#iletisim" class="btn btn-secondary">Bizimle İletişime Geç</a>
+            </div>
+        </div>
+        <div class="hero-scroll-badge">
+            <div class="mouse-icon">
+                <div class="wheel"></div>
+            </div>
+            <span>Aşağı Kaydır</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about-section" id="hakkimizda">
+        <div class="container grid-2">
+            <div class="about-text-content reveal">
+                <span class="section-tag">BİZ KİMİZ?</span>
+                <h2 class="section-title">Detaylarda Gizlenen Kusursuzluk</h2>
+                <p class="about-desc lead">Başka İnşaat, kurulduğu günden bu yana modern mimarinin ve sağlam mühendisliğin sınırlarını zorlayan vizyoner projeler üretmektedir.</p>
+                <p class="about-desc">Her projede çevreyle uyumlu, estetik değeri yüksek mimari çözümler sunuyoruz. Menemen ve İzmir'in gelişen konut ve ticari yapılaşmasına öncülük ederek, yaşam kalitesini artıran ve gelecek nesillere miras kalacak yaşam alanları tasarlıyoruz.</p>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">12+</span>
+                        <span class="stat-label">Yıllık Tecrübe</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">150+</span>
+                        <span class="stat-label">Tamamlanan Proje</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">40+</span>
+                        <span class="stat-label">Mutlu Aile</span>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image-showcase reveal delay-1">
+                <div class="about-image-wrapper">
+                    <img src="assets/project-detail.jpg" alt="Başka İnşaat Mimari Detay" class="about-img-main">
+                    <div class="about-img-accent-card">
+                        <h3>Sürdürülebilir Malzemeler</h3>
+                        <p>Doğal taş, ahşap ve geri dönüştürülebilir malzemelerle yarınları inşa ediyoruz.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section services-section dark-bg" id="hizmetler">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag light">NE YAPIYORUZ?</span>
+                <h2 class="section-title light">Hizmet Alanlarımız</h2>
+                <p class="section-subtitle">Tasarım aşamasından anahtar teslimine kadar her adımda yüksek kalite standartlarında hizmet sunuyoruz.</p>
+            </div>
+            <div class="grid-3 services-grid">
+                <div class="service-card reveal">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-compass-drafting"></i>
+                    </div>
+                    <h3 class="service-title">Mimari Tasarım & Planlama</h3>
+                    <p class="service-desc">Kişiye ve çevreye özel, fonksiyonel ve estetik açıdan kusursuz mimari projeler çiziyor, hayallerinizi somut planlara dönüştürüyoruz.</p>
+                </div>
+                <div class="service-card reveal delay-1">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-couch"></i>
+                    </div>
+                    <h3 class="service-title">İç Mimari & Detay Tasarımı</h3>
+                    <p class="service-desc">Ferah, minimalist ve şık iç mekân tasarımlarıyla her yaşam alanını özel kılan detay çalışmaları yürütüyoruz.</p>
+                </div>
+                <div class="service-card reveal delay-2">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-helmet-safety"></i>
+                    </div>
+                    <h3 class="service-title">Anahtar Teslim İnşaat</h3>
+                    <p class="service-desc">Tüm inşaat sürecini üstlenerek, kaliteli işçilik ve güvenli mühendislik ilkeleri ile zamanında ve eksiksiz teslimat yapıyoruz.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section projects-section" id="projeler">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">PORTFOLYO</span>
+                <h2 class="section-title">Seçkin Projelerimiz</h2>
+                <p class="section-subtitle">Mimari vizyonumuzu ve inşaat kalitemizi yansıtan örnek çalışmalarımız.</p>
+            </div>
+            <div class="filter-controls reveal">
+                <button class="filter-btn active" data-filter="all">Tümü</button>
+                <button class="filter-btn" data-filter="residential">Konut</button>
+                <button class="filter-btn" data-filter="commercial">Ticari</button>
+                <button class="filter-btn" data-filter="detail">Detaylar</button>
+            </div>
+            <div class="projects-grid reveal delay-1">
+                <div class="project-card" data-category="residential">
+                    <div class="project-img-wrapper">
+                        <img src="assets/project-interior.jpg" alt="Lüks Konut İç Tasarımı" class="project-img">
+                        <div class="project-hover-overlay">
+                            <div class="project-info">
+                                <span class="project-cat">KONUT</span>
+                                <h3 class="project-name">Vadi Evi</h3>
+                            </div>
+                            <span class="project-view-btn"><i class="fa-solid fa-arrow-right"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="commercial">
+                    <div class="project-img-wrapper">
+                        <img src="assets/project-office.jpg" alt="Modern Ticari Bina" class="project-img">
+                        <div class="project-hover-overlay">
+                            <div class="project-info">
+                                <span class="project-cat">TİCARİ</span>
+                                <h3 class="project-name">Onyx Plaza</h3>
+                            </div>
+                            <span class="project-view-btn"><i class="fa-solid fa-arrow-right"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="detail">
+                    <div class="project-img-wrapper">
+                        <img src="assets/project-detail.jpg" alt="Mimari Detaylar" class="project-img">
+                        <div class="project-hover-overlay">
+                            <div class="project-info">
+                                <span class="project-cat">DETAYLAR</span>
+                                <h3 class="project-name">Traverten & Bronz</h3>
+                            </div>
+                            <span class="project-view-btn"><i class="fa-solid fa-arrow-right"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact-section" id="iletisim">
+        <div class="container grid-2">
+            <div class="contact-info reveal">
+                <span class="section-tag">İLETİŞİM</span>
+                <h2 class="section-title">Hayalinizdeki Projeyi Görüşelim</h2>
+                <p class="contact-intro">Yeni bir proje başlatmak, iş birliği yapmak veya sadece bilgi almak istiyorsanız, Ayhan Başka ve ekibi her zaman yanınızda.</p>
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <div class="contact-icon-wrapper">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Ofisimiz</h4>
+                            <p>Mermerli Mah. Şehit Aycan Aksoy Cad. No:38/19<br>Menemen / İZMİR</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon-wrapper">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Telefon</h4>
+                            <p><a href="tel:+905321669702">0532 166 97 02</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon-wrapper">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>E-posta</h4>
+                            <p><a href="mailto:baskainsaat52@gmail.com">baskainsaat52@gmail.com</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon-wrapper">
+                            <i class="fa-solid fa-globe"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Web Sitesi</h4>
+                            <p><a href="https://www.baskainsaat.com" target="_blank">www.baskainsaat.com</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+
+            <div class="contact-form-container reveal delay-1">
+                <form class="contact-form" id="contact-form" onsubmit="event.preventDefault(); alert('Mesajınız başarıyla iletildi! En kısa sürede dönüş yapacağız.');">
+                    <div class="form-group">
+                        <input type="text" id="name" class="form-control" required placeholder=" ">
+                        <label for="name" class="form-label">Adınız Soyadınız</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="phone" class="form-control" required placeholder=" ">
+                        <label for="phone" class="form-label">Telefon Numaranız</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" class="form-control" placeholder=" ">
+                        <label for="email" class="form-label">E-posta Adresiniz</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" class="form-control" rows="5" required placeholder=" "></textarea>
+                        <label for="message" class="form-label">Mesajınız</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Gönder</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <a href="#" class="logo footer-logo">
+                    <svg class="logo-mark" viewBox="0 0 90 78" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                        <polygon points="1,8 12,8 12,68 1,68"/>
+                        <polygon points="19,25 30,25 30,68 19,68"/>
+                        <polygon points="34,8 34,25 78,45 78,28"/>
+                        <polygon points="34,44 34,61 78,68 78,51"/>
+                    </svg>
+                    <div class="logo-text">
+                        <span class="logo-name">BAŞKA</span>
+                        <span class="logo-tagline">— İNŞAAT —</span>
+                    </div>
+                </a>
+                <p>Estetiği ve sağlamlığı merkezine alan premium yapı ve mimarlık çözümleri. Menemen / İzmir.</p>
+            </div>
+            <div class="footer-links">
+                <h3>Hızlı Bağlantılar</h3>
+                <ul>
+                    <li><a href="#hakkimizda">Hakkımızda</a></li>
+                    <li><a href="#hizmetler">Hizmetlerimiz</a></li>
+                    <li><a href="#projeler">Projelerimiz</a></li>
+                    <li><a href="#iletisim">İletişim</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact-quick">
+                <h3>İletişim</h3>
+                <ul>
+                    <li><a href="tel:+905321669702"><i class="fa-solid fa-phone"></i> 0532 166 97 02</a></li>
+                    <li><a href="mailto:baskainsaat52@gmail.com"><i class="fa-solid fa-envelope"></i> baskainsaat52@gmail.com</a></li>
+                    <li><i class="fa-solid fa-location-dot"></i> Menemen / İZMİR</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2026 Başka İnşaat. Tüm Hakları Saklıdır.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Project Lightbox Modal -->
+    <div class="lightbox" id="project-lightbox">
+        <button class="lightbox-close" id="lightbox-close" aria-label="Kapat"><i class="fa-solid fa-xmark"></i></button>
+        <div class="lightbox-content">
+            <img src="" alt="" class="lightbox-img" id="lightbox-img">
+            <div class="lightbox-info">
+                <span class="lightbox-cat" id="lightbox-cat"></span>
+                <h3 class="lightbox-title" id="lightbox-title"></h3>
+                <p class="lightbox-desc" id="lightbox-desc">Başka İnşaat projeleri, sürdürülebilir malzemeler ve üst düzey işçilikle hem dayanıklı hem de ilham verici yapılar ortaya koyar.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
