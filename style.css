@@ -281,9 +281,8 @@ img { display: block; max-width: 100%; }
 }
 
 .logo-mark {
-    width: 42px;
-    height: auto;
-    fill: var(--clr-gold);
+    width: auto;
+    height: 40px;
     flex-shrink: 0;
     transition: var(--transition-smooth);
 }
@@ -1282,3 +1281,4 @@ img { display: block; max-width: 100%; }
         padding: 22px;
     }
 }
+                           
