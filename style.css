@@ -1015,6 +1015,13 @@ img { display: block; max-width: 100%; }
     color: rgba(255, 255, 255, 0.25);
 }
 
+.footer-bottom .footer-credit {
+    margin-top: 6px;
+    font-size: 0.72rem;
+    color: rgba(255, 255, 255, 0.18);
+    letter-spacing: 0.5px;
+}
+
 /* ——————————————————————————
    Lightbox Modal
    —————————————————————————— */
